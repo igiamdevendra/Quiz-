@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div id="main" class="bg-blue-300 w-full min-h-screen pt-24">
+        <div id="card" class="bg-white w-11/12 max-w-[600px] mx-auto rounded-lg p-6">
+            <h1 class="text-2xl font-bold text-[#001e4d] border-black border-b-2 pb-5">Simple Quiz</h1>
+            <div id="quiz" class="py-[15px] px-0">
+                <h2 id="question" class="text-xl font-bold text-[#001e4d] mb-2">What is Your name?</h2>
+                <div id="answer-buttons">
+                    <button class="btn bg-white text-[#222] font-medium w-full border border-black p-[10px] my-[10px] text-left rounded-md hover:bg-black hover:text-white transition-all">Answer 1</button>
+                    <button class="btn bg-white text-[#222] font-medium w-full border border-black p-[10px] my-[10px] text-left rounded-md hover:bg-black hover:text-white transition-all">Answer 2</button>
+                    <button class="btn bg-white text-[#222] font-medium w-full border border-black p-[10px] my-[10px] text-left rounded-md hover:bg-black hover:text-white transition-all">Answer 2</button>
+                    <button class="btn bg-white text-[#222] font-medium w-full border border-black p-[10px] my-[10px] text-left rounded-md hover:bg-black hover:text-white transition-all">Answer 4</button>
+                </div>
+            </div>
+            <button id="next-btn" class="bg-[#001e4d] text-white font-medium w-40 p-2 text-xl rounded-lg mx-auto hidden">Next</button>
+        </div>
+    </div>
+
+    <script src="app.js "></script>
+</body>
+</html>
