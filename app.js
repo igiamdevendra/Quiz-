@@ -71,7 +71,7 @@ nextBtn.addEventListener("click", () => {
     fetchQuestions(data);
   } else {
     answerButtons.style.display = "none";
-    question.innerText = `Lere Lund ke ${score} gand me daal de ${data.results.length}`;
+    question.innerText = `You scored ${score} out of ${data.results.length}!`;
     playAgain.classList.remove("hidden");
   }
   nextBtn.style.display = "none";
